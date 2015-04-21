@@ -43,4 +43,13 @@ footer[role="contentinfo"] svg {
 
 .info-seattle, .info-link {
     background-color: rebeccapurple;
+    padding: 1em;
+}
+
+.info-seattle p:first-of-type {
+    margin-top: 0;
+}
+
+.headline {
+    @include headline-font;
 }
